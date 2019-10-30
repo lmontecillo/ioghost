@@ -1,18 +1,50 @@
 <!DOCTYPE html>
+
 <html>
-   <head>
-       <title> Modul1 </title>
-   </head>
-   <body></body>
+    <head>
+        <title> JavaScript Multiplication Table </title>
+        <meta charset="windows-1252">
+        <meta name="viewport" content= "width = device-witdth">, initial-scale=1.0>
+        </head>>
 
-         <h1>Ved Vejen</h1>
-<h2>Af Herman Bang</h2>
+        <body>
 
-         <iframe src="https://1drv.ms/w/s!AkG-TjxU6JuxgSr2GPgtL3WQM9R2" width="100%" height="500px">
-         </iframe>
-       </body>
-     </html>
+<script>
+
+    document.write("<table border= "1px">");
+
+            document.write("<tr style= "font-size: 30px; color: #fff; background-color: #000;">");
+
+                for ( i= 1; i<11 ; i++ );
+                [
+                    document.write("<th> ["+ i +"] </th>");
+                ]
+
+                for(k=1; k<11 ; k++)
+                [
+                    var colorCode= "";
+                    if (k%2===0)
+                    [
+                        colorCode = "#eee";
+                    ]
+                    else
+                    [
+                        colorCode = "#99e265";
+                    ]
+                    document.write("<tr style>="background-color:" + colorCode= "#5DBCD2" + ""></tr>");
+                
+                        for (j=1 ; j<11 ; j++ )
+                        [
+                            document.write("<td style= "font-size:20px;">" +j + "x" + k + "=" + j*k)
+                        ]
 
 
-   </body>
-   </html>
+                    document.write("</tr>");                
+                ]
+
+
+    document.write("</table>");
+
+</script>
+            </body>
+            </html>
